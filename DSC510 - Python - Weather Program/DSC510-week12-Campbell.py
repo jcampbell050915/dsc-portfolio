@@ -45,7 +45,7 @@ def temperatureType(temperature):
 def currentWeather(lat, lon, tempType, tempSymbol):
     try:
         url = "https://api.openweathermap.org/data/2.5/weather?"
-        querystring = {"appid": "415c1442518d899547d32991fc3dea9f",
+        querystring = {"appid": "apikey",
                        "lat": lat,
                        "lon": lon,
                        "units": tempType}
@@ -66,7 +66,7 @@ def currentWeather(lat, lon, tempType, tempSymbol):
 def zipWeather(zipCode, tempType, tempSymbol):
     try:
         url = "http://api.openweathermap.org/geo/1.0/zip?"
-        querystring = {"appid": "415c1442518d899547d32991fc3dea9f",
+        querystring = {"appid": "apikey",
                        "zip": zipCode + ",US"}
         response = requests.request("GET", url, params=querystring)
         response.raise_for_status()
@@ -87,7 +87,7 @@ def zipWeather(zipCode, tempType, tempSymbol):
 def cityWeather(city, state, tempType, tempSymbol):
     try:
         url = "http://api.openweathermap.org/geo/1.0/direct?"
-        querystring = {"appid": "415c1442518d899547d32991fc3dea9f",
+        querystring = {"appid": "apikey",
                        "q": city + "," + state + ",US"}
         response = requests.request("GET", url, params=querystring)
         response.raise_for_status()
