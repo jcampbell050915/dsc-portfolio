@@ -6,3 +6,6 @@ Utilize python as a tool to clean, slice, and build a connection to an open sour
 **DSC520 Statistics for Data Science**
 
 Explore petroleum sales datasets utilizng R to perform statistical test on data.
+
+**DSC540 Data Preperation**
+Prepare multiple datasets to be stored in a database to build visualizations.
