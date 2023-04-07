@@ -6,7 +6,8 @@ Utilize python as a tool to clean, slice, and build a connection to an open sour
 
 Explore petroleum sales datasets utilizng R to perform statistical test on data.
 
-**DSC540 Data Preperation**
+**DSC530 Data Exploration and Analysis**
+
 Exploratory data analysis on diabetes for females in a specific location to determine what may correlate with a diabetes diagnosis.
 
 **DSC540 Data Preperation**
